@@ -1,0 +1,203 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #333;
+    color: #fff;
+    height: 100vh;
+    line-height: 1.6;
+    /* overflow: hidden; */
+  }
+  
+  .container {
+    width: 100%;
+    height: 100%;
+    /* CSS Smooth Scroll */
+    /* overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory; */
+  }
+  
+  .lead {
+    font-size: 1.5rem;
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background: rgba(0,0,0,0.7);
+  }
+  
+  .navbar ul {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .navbar ul li {
+    margin: 0 1rem;
+    padding: 1rem;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #f4f4f4;
+  }
+  
+  .navbar ul li a:hover {
+    color: skyblue;
+  }
+  
+  section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+   
+    /* Scroll Snap */
+    scroll-snap-align: center;
+  }
+  
+  section h1 {
+    padding-top: 5rem;
+    font-size: 4rem;
+  }
+
+section#projects .projects {
+    display: flex;
+    list-style: none;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+
+
+section#projects a {
+    color: skyblue;
+    text-decoration: underline;
+    font-size: 1rem;
+}
+
+
+section#projects a:hover {
+    color: grey;
+
+}
+
+section#projects .projects section#react img {
+    padding-top: 2rem;
+    width:70%;
+    height: 40%;
+}
+
+section#projects .projects section#webgl img {
+    padding-top: 2rem;
+    width:70%;
+    height: 40%;
+}
+
+section#projects .projects p {
+    padding-top: 2rem;
+    width: 80%;
+
+}
+
+section#home {
+    /* justify-content: center; */
+    background: url('https://images.wallpaperscraft.com/image/edmonton_canada_night_city_top_view_118462_3840x2160.jpg') no-repeat center center/cover;
+    /* background: blue; */
+}
+
+section#home .disc {
+    vertical-align: bottom;
+}
+section#about {
+    background: url('https://images.wallpaperscraft.com/image/black_background_lines_scratches_69440_1600x1200.jpg') no-repeat center center/cover;
+    /* background: red; */
+}
+section#projects {
+    background: url('https://images.wallpaperscraft.com/image/starry_sky_galaxy_universe_sky_night_118591_1600x1200.jpg') no-repeat center center/cover;
+    /* background: black; */
+}
+section#contact {
+    background: url('https://images.wallpaperscraft.com/image/silhouette_starry_sky_shooting_star_131373_1600x1200.jpg') no-repeat center center/cover;
+    /* background: pink; */
+}
+
+section#about p {
+    width: 40%;
+    display: flex;
+    align-items: left;
+    text-align: left;
+}
+
+section#about img {
+    width: 20%;
+}
+
+section#about .structure {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   padding-top: 3rem;
+   
+}
+
+section#about .skills {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-around;
+   width: 60%;
+   padding-top: 1rem;
+
+}
+section#about .skills section#languages{
+    text-align: left;
+    align-content: left;
+
+}
+section#about .skills section#os{
+    text-align: left;
+    align-content: left;
+}
+section#about .skills section#software{
+    text-align: left;
+    align-content: left;
+    padding-left: 1rem;
+}
+section#about .skills section#networking{
+    text-align: left;
+    align-content: left;
+}
+
+section#contact a{
+    color: rgb(2, 2, 59);
+    text-decoration: underline;
+    font-size: 1.5rem;
+    
+}
+
+section#contact a:hover{
+    color:lightblue;
+}
+
+section#contact .information {
+    padding-top: 10%;
+    justify-content: center;
+    
+}
+
